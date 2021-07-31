@@ -1,0 +1,105 @@
+<div class="container">
+
+  <h1 class="text-center display-4 text-warning ">OUR PROCESS</h1> <br>
+  <div class="row">
+
+    <h2 class="text-info">Find the best services for affordable deals</h2>
+     <div class="col-sm-6">
+       <h4 style="font-style: italic;" >An elaborate explanation of consulting process  divides it into seven phases. This is the phase of entering the organization. It is the first contact interface between the client and the consultant. ... The focus of the client should be shifted towards analyzing the problem and the purpose.</h4>
+     </div>
+     <div class="col-sm-6">
+      <!-- <img src="http://i.stack.imgur.com/SBv4T.gif" alt="this slowpoke moves"  width="150" /> -->
+      <img src="https://i.pinimg.com/originals/5b/cf/51/5bcf5109367e1e5420a83e56330b9333.gif" alt="this slowpoke moves"  width="150" height="250" />
+     </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<h1 class="text-center display-4 text-info" >JOB OPENINGS:</h1>
+<p class="text-center text-success"> Maxi creative technology company providing key digital services for everyone.</p>
+<div class="jumbotron container" style="display: flex; flex-wrap: wrap; justify-content: space-evenly;">
+  <div class="card" id="x" *ngFor="let data of TestData">
+      <div class="card-body">
+      <img [src]="data.company_logo" width="20%" height="100px" alt="image not found">
+        <h4 class="card-title text-warning">Company:{{data.company}}</h4>
+        <h4 class="card-title text-info">Title:{{data.title}}</h4>
+        <button class="btn btn-success" (click)="clickhere(data.id)">View Details</button>
+      </div>
+  </div>
+</div>
+
+
+
+
+<div class="container">
+  <h1 class="text-center text-info p-2">Our Training Sessions</h1>
+  <h2 class="text-center text-warning p-2"> Our Services providing communication between firms and Job Aspirants</h2>
+  <div class="card-deck pt-2">
+    <div class="card">
+      <img src="https://developers.giphy.com/branch/master/static/api-c99e353f761d318322c853c03ebcf21b.gif" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-info">API Development</h5>
+        <p class="card-text font-italic">API(Application Programming Interface) is a set of instructions, standards or requirements that enables a software or app employ features/services of another app, platform or device for better services. Because of these factors, both app developers and business leaders focus on API development. </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://media0.giphy.com/media/0f5s5027NUC5MfYzDK/giphy.gif" style="height: 200px;" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-info">Personal Development</h5>
+        <p class="card-text font-italic">Personal development is a lifelong process. It is a way for people to assess their skills and qualities, consider their aims in life and set goals in order to realise and maximise their potential.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://www.edureka.co/blog/wp-content/uploads/2015/06/Angular_JS_blog_Giff.gif" style="height: 200px;" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-info">Angular</h5>
+        <p class="card-text font-italic">Angular is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. AngularJS's data binding and dependency injection eliminate much of the code you would otherwise have to write.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container pt-5">
+  <h1 class="display-4 text-info text-center">Best Awarded</h1>
+  <h2 class="font-italic text-warning text-center">We are awarded best in the industry for both freshers and Experineces job Aspirants.</h2>
+ 
+   <div class="row p-5"> 
+
+     <div class="col-sm-6">
+     
+       <h1>We are Experts</h1>
+       <h4 class="font-italic text-muted">Services online expert staff and online job database make the process of matching the right and correct applicant with the right jobs a time money savings and simple business transition</h4>
+     </div>
+     <div class="col-sm-6">
+      <img src="https://c1.wallpaperflare.com/preview/487/576/1012/designer-desk-home-office-keyboard.jpg" style="height: 200px;" width="150px" alt="">
+     </div>
+   </div>
+</div>
+
+
+
+   
+
+
+
+    
+
+
+
+
